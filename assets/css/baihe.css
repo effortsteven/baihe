@@ -1,0 +1,76 @@
+/* SYSTEM DEFAULTS */
+:root{
+    --primary:#da1515;
+    --primary-text: #da1515;
+    --secondary: rgb(124, 187, 36);
+}
+.sys-text-color, .btn-start-tour > span, .btn-start-tour > i{
+    color:var(--primary) !important;
+}.sys-text-color-1{
+    color:var(--primary-text) !important;
+}
+.sys-bg-color{
+    background-color:var(--primary) !important;
+}
+.sys-text-color-secondary{
+    color:var(--secondary) !important;
+}
+.sys-bg-color-secondary{
+    background-color:var(--secondary) !important;
+}
+.btn-start-tour{
+    border-color:var(--primary) !important
+}
+.btn-start-tour:hover, .btn-start-tour:hover  > span,.btn-start-tour:hover > i{
+    background-color:var(--primary) !important;
+    color:white !important;
+}
+/* SYSTEM DEFAULTS */
+.grid-filter li.activeFilter a{
+    background-color: var(--primary) ;
+}
+.grid-filter li a:hover{
+    color:var(--primary) ;
+}
+.grid-filter li.activeFilter a:hover{
+    color: white;
+}
+.grid-shuffle:hover{
+    background-color: var(--primary)
+}
+.color{
+    color: var(--primary-text) !important;
+}
+.fbox-effect.fbox-dark .fbox-icon i:hover, .fbox-effect.fbox-dark:hover .fbox-icon i{
+    background-color: var(--primary) !important;
+}
+.dark .entry-title h2 a:hover, .dark .entry-title h3 a:hover, .dark .entry-title h4 a:hover{
+    color: var(--primary-text) !important;
+}
+.bg-overlay-about:hover i, .bg-overlay-about:hover i:hover, .bg-overlay-about:hover .counter-lined, .bg-overlay-about:hover h5{
+    color: var(--primary);
+}
+/*----------------------------------------------------------------MEDIA QUERIES---------------------------------------------------------------- */
+/* BASES ON MAX TO MIN SCREEN WE START FROM LOW MEDIUM TO HIGHER */
+@media (min-width: 544px) {
+    
+}
+  @media (min-width: 768px) { 
+
+  }
+  @media (min-width: 992px) {
+      .style-3 .menu-container > .menu-item.current > .menu-link {
+          background-color:var(--primary)
+      }
+  }
+  @media (min-width: 1200px) { 
+
+  }
+/* BASES ON MIN TO MAX SCREEN WE START FROM MAX MEDIUM TO LOWER */
+
+  @media (max-width: 992px) {
+
+  }
+  @media (max-width: 480px) {
+
+}
