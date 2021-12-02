@@ -50,6 +50,13 @@
 .bg-overlay-about:hover i, .bg-overlay-about:hover i:hover, .bg-overlay-about:hover .counter-lined, .bg-overlay-about:hover h5{
     color: var(--primary);
 }
+.tab-nav li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tab-nav .ui-state-active a{
+    color: var(--primary) !important
+}
 /*----------------------------------------------------------------MEDIA QUERIES---------------------------------------------------------------- */
 /* BASES ON MAX TO MIN SCREEN WE START FROM LOW MEDIUM TO HIGHER */
 @media (min-width: 544px) {
